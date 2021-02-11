@@ -1,0 +1,221 @@
+/*Tamanhos*/
+
+/*1000px*/
+
+@media only screen and (min-width: 1000px){
+    /*Página inicial*/
+    section{
+        width: 100%;
+        display:flex;
+        box-sizing: border-box;
+    }
+
+    .container{
+        padding-top:2%;
+        height: 650px;
+        
+    }
+
+    .title{
+        padding-bottom:6.3%;
+    }
+
+    .containermenu{
+        font-size:155%;
+    }
+
+    .Menu{
+        width:95%;
+        margin:5px;
+    }
+
+    /*Cadastro*/
+
+    .registrationcontainer{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+    .containerbottom{
+        padding-bottom:45px;
+        padding-bottom:45px;
+        margin-left:50px;
+        margin-right:50px;
+    }
+
+    /*O que Somos-Palestrante*/
+
+    .person{
+        padding:20%;
+        border:darkgoldenrod solid 5px;
+        margin:15px;
+        position:relative;
+        float:left;
+    }
+
+    .founder{
+        padding-bottom:25%;
+        width:100%;
+        font-size:150%;
+    }
+
+}
+
+/*tamanho 300px*/
+
+@media only screen and (min-width: 300px){
+    /*Página inicial*/
+    .container{
+        padding-top:2%;
+        height: 650px;
+        
+        
+    }
+
+    .title{
+        padding-bottom:6.3%;
+        font-size:103%;
+    }
+
+    .containermenu{
+        font-size:140%;
+        padding:5px;
+    }
+
+    .Menu{
+        width:70%;
+        margin:5px;
+    }
+}
+
+/*tamanho 200px*/
+
+@media only screen and (min-width: 200px){
+    /*Página inicial*/
+    .container{
+        padding-top:2%;
+        height: 560px;
+        
+        
+    }
+
+    .title{
+        
+        font-size:90%;
+        padding:8;
+    }
+
+    .containermenu{
+        font-size:140%;
+        padding:5px;
+        padding:10px;
+    }
+
+    .registrationcontainer{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .containerbottom{
+        font-size:100%;
+        padding-bottom:5px;
+        padding:4%;
+        margin:0%;
+    }
+}
+
+/*tamanho 500px*/
+
+@media only screen and (min-width: 500px){
+    /*Página inicial*/
+    .container{
+        padding-top:2%;
+        height: 560px;
+        
+        
+    }
+
+    .title{
+        
+        font-size:110%;
+        padding:10;
+    }
+
+    .containermenu{
+        font-size:140%;
+        padding:5px;
+        padding:10px;
+    }
+
+    .Menu{
+        width:50%;
+
+    }
+
+    .registrationcontainer{
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+
+    .containerbottom{
+        font-size:100%;
+        padding-bottom:5px;
+        padding:4%;
+        margin:0%;
+    }
+}
+
+/*tamanho 1300px*/
+
+@media only screen and (min-width: 1300px){
+
+    /*Página Principal*/
+
+    .container{
+        width:100%;
+        height:770px;
+
+    }
+
+    .title{
+        font-size:150%;
+
+    }
+
+    /*O que é nosso Curso*/
+
+    .Menu{
+        margin:auto;
+        width:90%;
+        padding:5px;
+
+    }
+
+    .containermenu{
+        padding:50px;
+        font-size:200%;
+        
+    }
+
+    /*Cadastro*/
+
+    .registrationcontainer{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+
+    .containerbottom{
+        padding-top:40px;
+        padding-bottom:40px;
+        margin-left:120px;
+        margin-right:120px;
+        font-size:150%;
+    }
+
+    /*O que Somos-Palestrante*/
+    .founder{
+        padding-top:4%;
+        padding-bottom:25%;
+    }
+
+}
